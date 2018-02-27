@@ -33,5 +33,5 @@ test();
 
 # version
 ### 0.0.1.20180227
-1.init project
-2.qiao.cookie
+1. init project
+2. qiao.cookie
