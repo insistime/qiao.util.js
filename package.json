@@ -12,6 +12,7 @@
   "main": "index.js",
   "scripts": {},
   "dependencies": {
+    "js-cookie": "^2.2.0"
   },
   "author": {
     "name": "qiaowenbin",
