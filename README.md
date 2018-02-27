@@ -1,102 +1,31 @@
-# qiao.plugin.request
-http request on nodejs
+# qiao.util.js
+javascript tools on browser
 
 # install
-npm install qiao.plugin.request
+npm install qiao.util.js
 
 # dependencies
-1. http request by request
+1. qiao.cookie by js-cookie
 
 # documentation
-1. request, https://www.npmjs.com/package/request
+1. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
 
-# request get sync
+# qiao.cookie
 ```javascript
 'use strict';
 
-var qiaoPluginRequest = require('qiao.plugin.request');
-
-var test = async function(){
-	try{
-		var url = 'http://www.baidu.com';
-		var res = await qiaoPluginRequest.getSync({
-			url	: url,
-			qs	: {
-				test : 'test'
-			}
-		});
-		
-		console.log(res);
-	}catch(e){
-		console.log(e);
-	}
-};
-
-test(); 
-```
-
-# request post sync
-```javascript
-'use strict';
-
-var qiaoPluginRequest = require('qiao.plugin.request');
-
-var test = async function(){
-	try{
-		var url = 'http://www.baidu.com';
-		var res = await qiaoPluginRequest.postSync({
-			url	: url,
-			qs	: {
-				test : 'test'
-			}
-		});
-		
-		console.log(res);
-	}catch(e){
-		console.log(e);
-	}
-};
-
-test();
-```
-
-# request get async
-```javascript
-'use strict';
-
-var qiaoPluginRequest = require('qiao.plugin.request');
+var qiao = require('../lib/qiao.util.js');
 
 var test = function(){
-	var url = 'http://www.baidu.com';
-	qiaoPluginRequest.get({
-		url	: url,
-		qs	: {
-			test : 'test'
-		}
-	}, function(err, rs, body){
-		console.log(err, body);
-	});
-};
-
-test();
-```
-
-# request post async
-```javascript
-'use strict';
-
-var qiaoPluginRequest = require('qiao.plugin.request');
-
-var test = function(){
-	var url = 'http://www.baidu.com';
-	qiaoPluginRequest.post({
-		url	: url,
-		qs	: {
-			test : 'test'
-		}
-	}, function(err, rs, body){
-		console.log(err, body);
-	});
+	// set
+	qiao.cookie('name', 'value');
+	
+	// get
+	console.log(qiao.cookie('name'));
+	
+	// delete
+	qiao.cookie('name', null);
+	console.log(qiao.cookie('name'));
 };
 
 test();
@@ -105,3 +34,4 @@ test();
 # version
 ### 0.0.1.20180227
 1.init project
+2.qiao.cookie
