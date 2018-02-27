@@ -1,0 +1,26 @@
+{
+  "name": "qiao.util.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "javascript tools on browser",
+  "keywords": [
+    "javascript",
+    "tools",
+    "browser",
+    "cookie"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+  },
+  "author": {
+    "name": "qiaowenbin",
+    "email": "npm@insistime.com",
+    "url": "http://insistime.com"
+  },
+  "homepage": "http://insistime.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insistime/qiao.util.js.git"
+  }
+}
