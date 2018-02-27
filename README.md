@@ -103,12 +103,5 @@ test();
 ```
 
 # version
-### 0.0.2.20180210
-1. delete reqwest
-2. highlight md
-
-### 0.0.1.20180208
-1. init project
-2. request get
-3. request post
-4. modify index.js
+### 0.0.1.20180227
+1.init project
