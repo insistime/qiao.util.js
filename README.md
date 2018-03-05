@@ -16,7 +16,7 @@ npm install qiao.util.js
 ```javascript
 'use strict';
 
-var qiao = require('../lib/qiao.util.js');
+var qiao = require('qiao.util.js');
 
 var test = function(){
 	qiao.ajax({
@@ -113,7 +113,7 @@ test();
 ```javascript
 'use strict';
 
-var qiao = require('../lib/qiao.util.js');
+var qiao = require('qiao.util.js');
 
 var test = function(){
 	// set
@@ -131,6 +131,9 @@ test();
 ```
 
 # version
+### 0.0.3.20180305
+1. modify md
+
 ### 0.0.2.20180301
 1. qiao.ajax
 
