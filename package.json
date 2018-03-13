@@ -1,13 +1,15 @@
 {
   "name": "qiao.util.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "description": "javascript tools on browser",
   "keywords": [
     "javascript",
     "tools",
     "browser",
-    "cookie"
+    "ajax",
+    "cookie",
+    "search"
   ],
   "main": "index.js",
   "scripts": {},
