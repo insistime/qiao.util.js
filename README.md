@@ -12,6 +12,22 @@ npm install qiao.util.js
 1. qiao.ajax, reqwest, https://www.npmjs.com/package/reqwest
 2. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
 
+# qiao.search
+```javascript
+'use strict';
+
+var qiao = require('lib/qiao.util.js');
+
+var test = function(){
+	// url http://www.baidu.com?q=1
+	var s = qiao.search('q');
+	
+	// s = 1
+	console.log(s);
+};
+
+test();
+```
 # qiao.ajax
 ```javascript
 'use strict';
