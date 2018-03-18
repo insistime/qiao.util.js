@@ -16,7 +16,7 @@ npm install qiao.util.js
 ```javascript
 'use strict';
 
-var qiao = require('lib/qiao.util.js');
+var qiao = require('qiao.util.js');
 
 var test = function(){
 	// url http://www.baidu.com?q=1
@@ -28,6 +28,7 @@ var test = function(){
 
 test();
 ```
+
 # qiao.ajax
 ```javascript
 'use strict';
@@ -146,7 +147,44 @@ var test = function(){
 test();
 ```
 
+# qiao.qrcode
+```javascript
+'use strict';
+
+var qiao = require('qiao.util.js');
+
+var test = function(){
+	// need <div id="qrcode" style="width:100px;height:100px;"></div>
+	
+	// canvas
+	qiao.qrcode({
+		id	: 'qrcode',
+		type: 'canvas',
+		text: 'http://insistime.com/'
+	});
+
+	// img
+	qiao.qrcode({
+		id	: 'qrcode',
+		type: 'img',
+		text: 'http://insistime.com/'
+	});
+	
+	// svg
+	qiao.qrcode({
+		id	: 'qrcode',
+		type: 'svg',
+		text: 'http://insistime.com/'
+	});
+};
+
+test();
+```
+
 # version
+### 0.0.5.20180318
+1. qiao.qrcode
+
 ### 0.0.4.20180313
 1. qiao.search
 
