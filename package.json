@@ -10,7 +10,7 @@
     "ajax",
     "cookie",
     "search",
-    "qrcode",
+    "qrcode"
   ],
   "main": "index.js",
   "scripts": {},
