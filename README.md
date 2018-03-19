@@ -184,6 +184,9 @@ test();
 ```
 
 # version
+### 0.0.6.20180319
+1. add qrcode keyword
+
 ### 0.0.5.20180318
 1. qiao.qrcode
 

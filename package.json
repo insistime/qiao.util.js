@@ -1,6 +1,6 @@
 {
   "name": "qiao.util.js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "description": "javascript tools on browser",
   "keywords": [
@@ -9,7 +9,8 @@
     "browser",
     "ajax",
     "cookie",
-    "search"
+    "search",
+    "qrcode",
   ],
   "main": "index.js",
   "scripts": {},
