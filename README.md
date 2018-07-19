@@ -1,20 +1,29 @@
-# qiao.util.js
-javascript tools on browser
+# urls
+## homepage
+[http://code.insistime.com/qiao.util.js](http://code.insistime.com/qiao.util.js)
 
-# install
+## github
+[https://github.com/insistime/qiao.util.js](https://github.com/insistime/qiao.util.js)
+
+## npm
+[https://www.npmjs.com/package/qiao.util.js](https://www.npmjs.com/package/qiao.util.js)
+
+# started
+## install
 npm install qiao.util.js
 
-# dependencies
+## dependencies
 1. qiao.ajax by reqwest
 2. qiao.cookie by js-cookie
 3. qiao.qrcode by qrcode
 
-# documentation
+## documentation
 1. qiao.ajax, reqwest, https://www.npmjs.com/package/reqwest
 2. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
 3. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
 
-# qiao.search
+# api
+## qiao.search
 ```javascript
 'use strict';
 
@@ -31,7 +40,7 @@ var test = function(){
 test();
 ```
 
-# qiao.ajax
+## qiao.ajax
 ```javascript
 'use strict';
 
@@ -128,7 +137,7 @@ var test = function(){
 test();
 ```
 
-# qiao.cookie
+## qiao.cookie
 ```javascript
 'use strict';
 
@@ -149,7 +158,7 @@ var test = function(){
 test();
 ```
 
-# qiao.qrcode
+## qiao.qrcode
 ```javascript
 'use strict';
 
@@ -184,21 +193,24 @@ test();
 ```
 
 # version
-### 0.0.6.20180319
+## 0.0.7.20180719
+1. modify readme.md
+
+## 0.0.6.20180319
 1. add qrcode keyword
 
-### 0.0.5.20180318
+## 0.0.5.20180318
 1. qiao.qrcode
 
-### 0.0.4.20180313
+## 0.0.4.20180313
 1. qiao.search
 
-### 0.0.3.20180305
+## 0.0.3.20180305
 1. modify md
 
-### 0.0.2.20180301
+## 0.0.2.20180301
 1. qiao.ajax
 
-### 0.0.1.20180227
+## 0.0.1.20180227
 1. init project
 2. qiao.cookie
