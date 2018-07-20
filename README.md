@@ -1,6 +1,6 @@
 # urls
 ## homepage
-[http://code.insistime.com/qiao.util.js](http://code.insistime.com/qiao.util.js)
+[https://code.insistime.com/qiao.util.js](https://code.insistime.com/qiao.util.js)
 
 ## github
 [https://github.com/insistime/qiao.util.js](https://github.com/insistime/qiao.util.js)
@@ -193,6 +193,9 @@ test();
 ```
 
 # version
+## 0.0.8.20180720
+1. https homepage
+
 ## 0.0.7.20180719
 1. modify readme.md
 
