@@ -16,6 +16,8 @@ npm install qiao.util.js
 1. qiao.ajax by reqwest
 2. qiao.cookie by js-cookie
 3. qiao.qrcode by qrcode
+4. qiao.search
+5. qiao.vendor
 
 ## documentation
 1. qiao.ajax, reqwest, https://www.npmjs.com/package/reqwest
@@ -23,23 +25,6 @@ npm install qiao.util.js
 3. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
 
 # api
-## qiao.search
-```javascript
-'use strict';
-
-var qiao = require('qiao.util.js');
-
-var test = function(){
-	// url http://www.baidu.com?q=1
-	var s = qiao.search('q');
-	
-	// s = 1
-	console.log(s);
-};
-
-test();
-```
-
 ## qiao.ajax
 ```javascript
 'use strict';
@@ -192,7 +177,27 @@ var test = function(){
 test();
 ```
 
+## qiao.search
+```javascript
+'use strict';
+
+var qiao = require('qiao.util.js');
+
+var test = function(){
+	// url http://www.baidu.com?q=1
+	var s = qiao.search('q');
+	
+	// s = 1
+	console.log(s);
+};
+
+test();
+```
+
 # version
+## 0.0.9.20190605
+1. add vendor
+
 ## 0.0.8.20180720
 1. https homepage
 
