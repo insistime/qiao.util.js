@@ -195,6 +195,9 @@ test();
 ```
 
 # version
+## 0.1.0.20190621
+1. add file type
+
 ## 0.0.9.20190605
 1. add vendor
 
