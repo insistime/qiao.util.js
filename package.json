@@ -16,6 +16,7 @@
   "scripts": {},
   "dependencies": {
     "js-cookie": "^2.2.0",
+    "qiao.ls.js": "0.0.1",
     "qrcode": "^1.2.0",
     "reqwest": "^2.0.5"
   },
