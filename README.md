@@ -218,6 +218,7 @@ test();
 # version
 ## 0.1.1.20190624
 1. add qiao.ls.js
+2. update npms
 
 ## 0.1.0.20190621
 1. add file type
