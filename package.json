@@ -26,6 +26,7 @@
     "url": "https://insistime.com"
   },
   "homepage": "https://code.insistime.com/qiao.util.js",
+  "funding": "http://uikoo9.com/donate",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/insistime/qiao.util.js.git"
