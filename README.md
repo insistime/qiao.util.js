@@ -219,6 +219,10 @@ test();
 ```
 
 # version
+## 0.1.2.20191204
+1. add funding
+2. update packagers
+
 ## 0.1.1.20190624
 1. add qiao.ls.js
 2. update npms
