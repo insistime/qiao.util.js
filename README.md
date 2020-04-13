@@ -167,6 +167,30 @@ var test = function(){
 test();
 ```
 
+## qiao.cache
+```javascript
+'use strict';
+
+var qiao = require('qiao.util.js');
+
+var test = function(){
+	// set
+	qiao.cache('name', 'key', 'value');
+
+	// get
+	console.log(qiao.cache('name', 'key'));
+	
+	// delete
+	qiao.cache('name', 'key', null);
+	console.log(qiao.cache('name', 'key'));
+	
+	// clear
+	qiao.cache('name', null);
+};
+
+test();
+```
+
 ## qiao.qrcode
 ```javascript
 'use strict';
@@ -219,6 +243,9 @@ test();
 ```
 
 # version
+## 0.1.3.20200414
+1. add cache
+
 ## 0.1.2.20191204
 1. add funding
 2. update packagers
