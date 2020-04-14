@@ -1,6 +1,6 @@
 {
   "name": "qiao.util.js",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "description": "javascript tools on browser",
   "keywords": [
@@ -16,7 +16,7 @@
   "scripts": {},
   "dependencies": {
     "js-cookie": "^2.2.1",
-    "qiao.ls.js": "0.0.6",
+    "qiao.ls.js": "0.0.7",
     "qrcode": "^1.4.4",
     "reqwest": "^2.0.5"
   },
