@@ -24,8 +24,9 @@ npm install qiao.util.js
 ## documentation
 1. qiao.ajax, reqwest, https://www.npmjs.com/package/reqwest
 2. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
-3. qiao.ls, qiao.ls.js, https://www.npmjs.com/package/qiao.ls.js
-4. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
+3. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
+4. qiao.ls, qiao.ls.js, https://www.npmjs.com/package/qiao.ls.js
+5. qiao.db, qiao.db.js, https://www.npmjs.com/package/qiao.db.js
 
 # api
 ## qiao.ajax
