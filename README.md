@@ -26,7 +26,7 @@ npm install qiao.util.js
 2. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
 3. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
 4. qiao.ls, qiao.ls.js, https://www.npmjs.com/package/qiao.ls.js
-5. qiao.db, qiao.db.js, https://www.npmjs.com/package/qiao.db.js
+5. qiao.db, qiao.indexeddb.js, https://www.npmjs.com/package/qiao.indexeddb.js
 
 # api
 ## qiao.ajax
@@ -244,6 +244,9 @@ test();
 ```
 
 # version
+## 0.1.6.20200803
+1. ncu
+
 ## 0.1.5.20200630
 1. qiao.db.js@0.0.6
 
