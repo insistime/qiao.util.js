@@ -1,19 +1,4 @@
-# urls
-## homepage
-[https://code.insistime.com/qiao.util.js](https://code.insistime.com/qiao.util.js)
-
-## github
-[https://github.com/insistime/qiao.util.js](https://github.com/insistime/qiao.util.js)
-
-## npm
-[https://www.npmjs.com/package/qiao.util.js](https://www.npmjs.com/package/qiao.util.js)
-
-## donate
-[http://uikoo9.com/donate](http://uikoo9.com/donate)
-
-# started
-## install
-npm install qiao.util.js
+# qiao.util.js
 
 ## dependencies
 1. qiao.ajax by reqwest
@@ -26,10 +11,9 @@ npm install qiao.util.js
 2. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
 3. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
 4. qiao.ls, qiao.ls.js, https://www.npmjs.com/package/qiao.ls.js
-5. qiao.db, qiao.indexeddb.js, https://www.npmjs.com/package/qiao.indexeddb.js
 
-# api
-## qiao.ajax
+## api
+### qiao.ajax
 ```javascript
 'use strict';
 
@@ -126,7 +110,7 @@ var test = function(){
 test();
 ```
 
-## qiao.cookie
+### qiao.cookie
 ```javascript
 'use strict';
 
@@ -147,7 +131,7 @@ var test = function(){
 test();
 ```
 
-## qiao.ls
+### qiao.ls
 ```javascript
 'use strict';
 
@@ -168,7 +152,7 @@ var test = function(){
 test();
 ```
 
-## qiao.cache
+### qiao.cache
 ```javascript
 'use strict';
 
@@ -192,7 +176,7 @@ var test = function(){
 test();
 ```
 
-## qiao.qrcode
+### qiao.qrcode
 ```javascript
 'use strict';
 
@@ -226,7 +210,7 @@ var test = function(){
 test();
 ```
 
-## qiao.search
+### qiao.search
 ```javascript
 'use strict';
 
@@ -243,54 +227,54 @@ var test = function(){
 test();
 ```
 
-# version
-## 0.1.6.20200803
+## version
+### 0.1.6.20200803
 1. ncu
 
-## 0.1.5.20200630
+### 0.1.5.20200630
 1. qiao.db.js@0.0.6
 
-## 0.1.4.20200515
+### 0.1.4.20200515
 1. add db
 
-## 0.1.3.20200414
+### 0.1.3.20200414
 1. add cache
 
-## 0.1.2.20191204
+### 0.1.2.20191204
 1. add funding
 2. update packagers
 
-## 0.1.1.20190624
+### 0.1.1.20190624
 1. add qiao.ls.js
 2. update npms
 
-## 0.1.0.20190621
+### 0.1.0.20190621
 1. add file type
 
-## 0.0.9.20190605
+### 0.0.9.20190605
 1. add vendor
 
-## 0.0.8.20180720
+### 0.0.8.20180720
 1. https homepage
 
-## 0.0.7.20180719
+### 0.0.7.20180719
 1. modify readme.md
 
-## 0.0.6.20180319
+### 0.0.6.20180319
 1. add qrcode keyword
 
-## 0.0.5.20180318
+### 0.0.5.20180318
 1. qiao.qrcode
 
-## 0.0.4.20180313
+### 0.0.4.20180313
 1. qiao.search
 
-## 0.0.3.20180305
+### 0.0.3.20180305
 1. modify md
 
-## 0.0.2.20180301
+### 0.0.2.20180301
 1. qiao.ajax
 
-## 0.0.1.20180227
+### 0.0.1.20180227
 1. init project
 2. qiao.cookie
