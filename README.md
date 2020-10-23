@@ -3,14 +3,12 @@
 ## dependencies
 1. qiao.ajax by reqwest
 2. qiao.cookie by js-cookie
-3. qiao.ls by qiao.ls.js
 4. qiao.qrcode by qrcode
 
 ## documentation
 1. qiao.ajax, reqwest, https://www.npmjs.com/package/reqwest
 2. qiao.cookie, js-cookie, https://www.npmjs.com/package/js-cookie
 3. qiao.qrcode, qrcode, https://www.npmjs.com/package/qrcode
-4. qiao.ls, qiao.ls.js, https://www.npmjs.com/package/qiao.ls.js
 
 ## api
 ### qiao.ajax
@@ -131,51 +129,6 @@ var test = function(){
 test();
 ```
 
-### qiao.ls
-```javascript
-'use strict';
-
-var qiao = require('qiao.util.js');
-
-var test = function(){
-	// set
-	qiao.ls('name', 'value');
-	
-	// get
-	console.log(qiao.ls('name'));
-	
-	// delete
-	qiao.ls('name', null);
-	console.log(qiao.ls('name'));
-};
-
-test();
-```
-
-### qiao.cache
-```javascript
-'use strict';
-
-var qiao = require('qiao.util.js');
-
-var test = function(){
-	// set
-	qiao.cache('name', 'key', 'value');
-
-	// get
-	console.log(qiao.cache('name', 'key'));
-	
-	// delete
-	qiao.cache('name', 'key', null);
-	console.log(qiao.cache('name', 'key'));
-	
-	// clear
-	qiao.cache('name', null);
-};
-
-test();
-```
-
 ### qiao.qrcode
 ```javascript
 'use strict';
@@ -230,6 +183,7 @@ test();
 ## version
 ### 0.1.7.20201023
 1. del qiao.indexeddb.js
+2. del qiao.ls.js
 
 ### 0.1.6.20200803
 1. ncu
