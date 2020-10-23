@@ -228,6 +228,9 @@ test();
 ```
 
 ## version
+### 0.1.7.20201023
+1. del qiao.indexeddb.js
+
 ### 0.1.6.20200803
 1. ncu
 
